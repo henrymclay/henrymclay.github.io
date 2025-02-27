@@ -28,7 +28,7 @@ function Footer({ title = "" }: Props) {
             Code 
           </a>
           <a
-            href="/"
+            href="/cv"
             target="_blank"
             rel="noopener noreferrer"
           >   

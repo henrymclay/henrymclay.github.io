@@ -67,6 +67,18 @@
   font-weight: 600;
 }
 
+.section ul {
+  line-height: 18px;
+}
+
+.category {
+  padding-bottom: 16px;
+}
+
+.entry {
+  padding: 8px;
+}
+
 .ctas {
   display: flex;
   gap: 16px;
@@ -118,6 +130,7 @@ a.secondary {
 .footer img {
   flex-shrink: 0;
 }
+
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
