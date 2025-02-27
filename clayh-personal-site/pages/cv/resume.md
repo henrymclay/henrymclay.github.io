@@ -1,10 +1,6 @@
 **_Henry Clay_**
 
-Baltimore, MD
-
-(978) 810-0397
-
-**mr.henry,<clay@gmail.com>**
+**mr.henry.<clay@gmail.com>**
 
 **_Skills_**
 

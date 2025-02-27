@@ -15,19 +15,10 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
-/*
-p {
-  background-image: linear-gradient(red, blue);
-  color: transparent;
-  background-clip: text;
 
-  color: var(--foreground);
-  background: var(--background);
-}
-*/
 body {
   background: var(--background);
-    /*
+  /*
   color: var(--foreground);
   */
   font-family: Arial, Helvetica, sans-serif;
@@ -35,6 +26,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* this is the magic for the gradient */
 div {
   background-image: linear-gradient(red, blue);
   color: transparent;
