@@ -3,6 +3,9 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
+import Footer from "../components/footer";
+import Navbar from "../components/navbar"
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,6 +28,7 @@ export default function Home() {
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
+        <Navbar title={""} />
         <main className={styles.main}>
           <h2>Henry Clay</h2>
           <ul>
@@ -53,50 +57,7 @@ export default function Home() {
           </div>
             */}
         </main>
-        <footer className={styles.footer}>
-          <a
-            href="https://www.github.com/henrymclay"
-            target="_blank"
-            rel="noopener noreferrer"
-          >   
-            Code 
-          </a>
-          <a
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >   
-            CV 
-          </a>
-          <a
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >   
-            Projects 
-          </a>
-          <a
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >   
-            Blog 
-          </a>
-          <a
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >   
-            Art 
-          </a>
-          <a
-            href="https://technoliches.bandcamp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >   
-            Music 
-          </a>
-        </footer>
+        <Footer title={""} />
       </div>
     </>
   );

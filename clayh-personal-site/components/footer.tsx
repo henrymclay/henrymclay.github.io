@@ -19,7 +19,6 @@ type Props = {title : string};
 function Footer({ title = "" }: Props) {
     return (
       <>
-        <div className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}>
         <footer className={styles.footer}>
           <a
             href="https://www.github.com/henrymclay"
@@ -64,7 +63,6 @@ function Footer({ title = "" }: Props) {
             Music 
           </a>
         </footer>
-        </div>
       </>
     )
   }
