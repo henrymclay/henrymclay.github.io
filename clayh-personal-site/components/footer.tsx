@@ -1,6 +1,4 @@
 import React, { ReactNode } from 'react';
-import Head from "next/head";
-import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
@@ -20,6 +18,13 @@ function Footer({ title = "" }: Props) {
     return (
       <>
         <footer className={styles.footer}>
+        <a
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >   
+            Home 
+          </a>
           <a
             href="https://www.github.com/henrymclay"
             target="_blank"
@@ -42,14 +47,14 @@ function Footer({ title = "" }: Props) {
             Projects 
           </a>
           <a
-            href="/"
+            href="/blog"
             target="_blank"
             rel="noopener noreferrer"
           >   
             Blog 
           </a>
           <a
-            href="/"
+            href="/art"
             target="_blank"
             rel="noopener noreferrer"
           >   

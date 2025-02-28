@@ -83,7 +83,8 @@
 .entry {
   background-color: transparent;
   outline-color: transparent;
-  padding: 8px;
+  padding-bottom: 16px;
+  /*padding: 8px;*/
 }
 
 .ctas {

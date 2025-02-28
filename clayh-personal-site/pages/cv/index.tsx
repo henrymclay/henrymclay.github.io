@@ -29,10 +29,7 @@ export default function CV() {
       <div className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}>
         <Navbar title={""} />
         <main className={styles.main}>
-            <div>
-            <section className={styles.category}>
-                <h2>Henry Clay</h2>
-            </section>
+            <h2>Curriculum Vitae</h2>
             <section className={styles.category}>
             <h3>Work History</h3>
             <section className={styles.entry}>
@@ -98,7 +95,7 @@ export default function CV() {
             </ul>
             </section>
             </section>
-            </div>
+           
         </main>
         <Footer title={""} />
       </div>
