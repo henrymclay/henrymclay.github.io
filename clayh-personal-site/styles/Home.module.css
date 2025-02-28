@@ -72,10 +72,17 @@
 }
 
 .category {
+  background-color: transparent;
+  margin: 1em;
   padding-bottom: 16px;
+  outline-style: solid;
+  outline-color: rgba(255, 255, 255, 0.1);
+  outline-width: 3px;
 }
 
 .entry {
+  background-color: transparent;
+  outline-color: transparent;
   padding: 8px;
 }
 

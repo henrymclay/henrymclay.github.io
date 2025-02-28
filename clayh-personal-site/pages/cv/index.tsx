@@ -25,6 +25,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
       <div className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}>
         <Navbar title={""} />
         <main className={styles.main}>
@@ -34,7 +35,6 @@ export default function Home() {
             </section>
             <section className={styles.category}>
             <h3>Work History</h3>
-
             <section className={styles.entry}>
             <h4>Web Developer April 2017 – present</h4>
             <ul>
@@ -42,7 +42,7 @@ export default function Home() {
             </ul>
             </section>
             <section className={styles.entry}>
-            <h4>Specialist Laboratory Technician** March 2023 – March 2024</h4>
+            <h4>Specialist Laboratory Technician March 2023 – March 2024</h4>
             <ul>
                 <li>Developed & implemented specialized manufacturing processes</li>
             </ul>
@@ -67,11 +67,12 @@ export default function Home() {
             </ul>
             </section>
             <section className={styles.entry}>
-            <h4>Order and Social Media Support Specialist** March 2015- April 2016</h4>
+            <h4>Order and Social Media Support Specialist March 2015- April 2016</h4>
             <ul>
                 <li>Resolved technical and warranty issues.</li>
                 <li>Coordinated with vendors (missing orders, payments, and/or inventory)</li>
             </ul>
+            </section>
             </section>
             <section className={styles.category}>
             <h3>Education</h3>
@@ -95,7 +96,6 @@ export default function Home() {
             <ul>
                 <li>Logic, Philosophy of Science, Artificial Intelligence</li>
             </ul>
-            </section>
             </section>
             </section>
             </div>
