@@ -6,10 +6,12 @@ type Props = {
     title: string,
     line1: string,
     line2: string,
-    line3: string
+    line3: string,
+    link: string,
+    linkTitle: string
 }; 
 
-function ProjectCard({ title = "", line1 = "", line2 = "", line3 = "" }: Props) {
+function ProjectCard({ title = "", line1 = "", line2 = "", line3 = "", link ="", linkTitle="" }: Props) {
     return (
       <>
         <section className={styles.category}>
@@ -18,6 +20,15 @@ function ProjectCard({ title = "", line1 = "", line2 = "", line3 = "" }: Props) 
                 <li>{line1}</li>
                 <li>{line2}</li>
                 <li>{line3}</li>
+                <li>
+                    More information is available at: <a
+                         href={link}
+                         target="_blank"
+                         rel="noopener noreferrer"
+                    >
+                        {linkTitle}
+                    </a> 
+                </li>
             </ul>
         </section>
       </>

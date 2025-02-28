@@ -30,23 +30,30 @@ export default function Projects() {
         <div className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}>
           <Navbar title={""} />
           <main className={styles.main}>
+            <h2>Projects</h2>
               <ProjectCard 
-                title = "Lorem Ipsum"
-                line1 = "dolor sit amet"
-                line2 = "consectetur adipiscing elit "
-                line3 = "sed do eiusmod tempor incididunt"
+                title = "xFader"
+                line1 = "A python CLI utility for manipulating music samples."
+                line2 = "xFader detects the bpm and re-pitches clips to a target bpm."
+                line3 = "Planned features include smart slicing and crossfading."
+                link = "https://www.github.com/henrymclay/xfader"
+                linkTitle="xFader on Github"
               />
               <ProjectCard 
-                title = "Lorem Ipsum"
-                line1 = "dolor sit amet"
-                line2 = "consectetur adipiscing elit "
-                line3 = "sed do eiusmod tempor incididunt"
+                title = "Medusa Studio"
+                line1 = "A gallery website for a professional artist."
+                line2 = "Written in React then ported to Wordpress."
+                line3 = "Designed to be functional for non-technical users"
+                link = "https://www.medusastudio.com"
+                linkTitle="Medusa Studio"
               />
               <ProjectCard 
-                title = "Lorem Ipsum"
-                line1 = "dolor sit amet"
-                line2 = "consectetur adipiscing elit "
-                line3 = "sed do eiusmod tempor incididunt"
+                title = "Romanesco"
+                line1 = "A React Native app that shows nearby grocery store prices based on location."
+                line2 = "Users can upload product information through the app to a database."
+                line3 = "Capstone project for Oregon State University. A demo video available upon request."
+                link = "https://github.com/RDMoore95/CrowdSourceShopping"
+                linkTitle="Romanesco on Github"
               />
           </main>
           <Footer title={""} />
