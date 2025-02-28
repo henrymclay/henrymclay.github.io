@@ -51,7 +51,7 @@ export default function Projects() {
                 title = "Romanesco"
                 line1 = "A React Native app that shows nearby grocery store prices based on location."
                 line2 = "Users can upload product information through the app to a database."
-                line3 = "Capstone project for Oregon State University. A demo video available upon request."
+                line3 = "Capstone project for Oregon State University. A demo video is available upon request."
                 link = "https://github.com/RDMoore95/CrowdSourceShopping"
                 linkTitle="Romanesco on Github"
               />
