@@ -35,7 +35,7 @@ function Footer({ title = "" }: Props) {
             CV 
           </a>
           <a
-            href="/"
+            href="/projects"
             target="_blank"
             rel="noopener noreferrer"
           >   

@@ -3,8 +3,8 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
-import Footer from "../../components/footer";
-import Navbar from "../../components/navbar";
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export default function Home() {
+export default function CV() {
   return (
     <>
       <Head>
