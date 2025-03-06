@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import GradientBG from "@/components/gradientBG";
 
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
@@ -26,7 +27,7 @@ export default function Art() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <div className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}>
+      <GradientBG className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}>
         <Navbar title={""}/>
         <main className={styles.main}>
             <h2>Art</h2>
@@ -35,6 +36,6 @@ export default function Art() {
             </section>
         </main>
         <Footer title={""}/>
-      </div>
+      </GradientBG>
     </>
   )};

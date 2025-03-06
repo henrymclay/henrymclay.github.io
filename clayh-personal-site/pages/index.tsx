@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import GradientBG from "@/components/gradientBG";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +26,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div
+      <GradientBG
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <Navbar title={""} />
@@ -40,7 +41,7 @@ export default function Home() {
           </ul>
         </main>
         <Footer title={""} />
-      </div>
+      </GradientBG>
     </>
   );
 }

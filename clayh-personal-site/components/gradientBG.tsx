@@ -5,7 +5,7 @@ type GradientdivProps = {
     className:string
 }
 
-const Gradientdiv:React.FC<GradientdivProps> = ({children,className}) =>{
+function GradientBG({children, className}: GradientdivProps) {    
     return(
         <div
 
@@ -17,14 +17,13 @@ const Gradientdiv:React.FC<GradientdivProps> = ({children,className}) =>{
             {children}
         </div>
     )
-}
+};
 
 const GradientPosition = () => {
 
     const [ mousePosition, setMousePosition] = React.useState({ x: 0, y: 0 });
-    const windowWidth = window.innerHeight
-
     React.useEffect(() => {
+        const windowWidth = window.innerHeight
         const updateMousePosition = (ev:any) => {
             setMousePosition({ x: ev.clientX, y: ev.clientY });
         };
@@ -36,3 +35,5 @@ const GradientPosition = () => {
 
     return (mousePosition)
 };
+
+export default GradientBG

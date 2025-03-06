@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import GradientBG from "@/components/gradientBG";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,7 +27,7 @@ export default function CV() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <div className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}>
+      <GradientBG className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}>
         <Navbar title={""} />
         <main className={styles.main}>
             <h2>Curriculum Vitae</h2>
@@ -98,7 +99,7 @@ export default function CV() {
            
         </main>
         <Footer title={""} />
-      </div>
+      </GradientBG>
     </>
   );
 }

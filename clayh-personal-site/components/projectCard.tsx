@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
-type Props = {
+type CardProps = {
     title: string,
     line1: string,
     line2: string,
@@ -11,7 +11,7 @@ type Props = {
     linkTitle: string
 }; 
 
-function ProjectCard({ title = "", line1 = "", line2 = "", line3 = "", link ="", linkTitle="" }: Props) {
+function ProjectCard({ title = "", line1 = "", line2 = "", line3 = "", link ="", linkTitle="" }: CardProps) {
     return (
       <>
         <section className={styles.category}>

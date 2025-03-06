@@ -30,7 +30,7 @@ body {
 
 /* this is the magic for the gradient */
 div {
-  background-image: linear-gradient(red, blue);
+  /*background-image: linear-gradient(red, blue);*/
   color: transparent;
   background-clip: text;
 }

@@ -1,9 +1,9 @@
 import React, { ReactNode } from 'react';
 
-type Props = {title : string}; 
+type NavProps = {title : string}; 
 
 
-function Navbar({ title = "" }: Props) {
+function Navbar({ title = "" }: NavProps) {
     return (
       <>
         <div>
