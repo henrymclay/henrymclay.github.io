@@ -27,7 +27,10 @@ export default function Art() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <GradientBG className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}>
+      <GradientBG 
+        className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`} 
+        lightSize={`60`}
+      >
         <Navbar title={""}/>
         <main className={styles.main}>
             <h2>Art</h2>
