@@ -26,19 +26,13 @@ export default function Art() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <GradientBG 
-        className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`} 
-        lightSize={`60`}
-      >
-        <Navbar title={""}/>
+
         <main className={styles.main}>
             <h2>Art</h2>
             <section className={styles.category}>
                 <h3>Under Construction!</h3>
             </section>
         </main>
-        <Footer title={""}/>
-      </GradientBG>
+
     </>
   )};

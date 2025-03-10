@@ -26,12 +26,6 @@ export default function CV() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <GradientBG 
-        className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`} 
-        lightSize={`60`}
-      >
-        <Navbar title={""} />
         <main className={styles.main}>
             <h2>Curriculum Vitae</h2>
             <section className={styles.category}>
@@ -101,8 +95,6 @@ export default function CV() {
             </section>
            
         </main>
-        <Footer title={""} />
-      </GradientBG>
     </>
   );
 }

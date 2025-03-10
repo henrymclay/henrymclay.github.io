@@ -27,12 +27,6 @@ export default function Projects() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        
-        <GradientBG 
-          className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`} 
-          lightSize={`60`}
-        >
-          <Navbar title={""} />
           <main className={styles.main}>
             <h2>Projects</h2>
               <ProjectCard 
@@ -60,8 +54,6 @@ export default function Projects() {
                 linkTitle="Romanesco on Github"
               />
           </main>
-          <Footer title={""} />
-        </GradientBG>
       </>
     );
   }
