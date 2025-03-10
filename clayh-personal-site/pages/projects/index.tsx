@@ -24,7 +24,7 @@ export default function Projects() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
           <main className={styles.main}>
-            <h2>Projects</h2>
+          <h2><a href="/projects">Selected Projects</a></h2>
               <ProjectCard 
                 title = "xFader"
                 line1 = "A python CLI utility for manipulating music samples."

@@ -24,7 +24,7 @@ export default function Art() {
       </Head>
 
         <main className={styles.main}>
-            <h2>Art</h2>
+            <h2><a href="/art">Art</a></h2>
             <section className={styles.category}>
                 <h3>Under Construction!</h3>
             </section>

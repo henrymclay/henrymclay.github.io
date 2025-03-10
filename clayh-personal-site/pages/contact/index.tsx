@@ -24,11 +24,42 @@ export default function Contact() {
       </Head>
 
         <main className={styles.main}>
-            <h2>Blog</h2>
+          <h2><a href="/contact">Contact</a></h2>
             <section className={styles.category}>
-                <h3>Under Construction!</h3>
+              <section className={styles.entry}>
+                <p>Email: </p>
+                <p>
+                  <a 
+                    href="mailto:mr.henry.clay@gmail.com" 
+                    rel="external" 
+                    target="_blank">
+                    mr.henry.clay@gmail.com
+                  </a>
+                </p>
+              </section>
+              <section className={styles.entry}>
+                <p>LinkedIn:</p>
+                <p>
+                  <a 
+                    href="https://www.linkedin.com/in/henry-clay-2160ba352" 
+                    rel="external" 
+                    target="_blank">
+                    linkedin.com/in/henry-clay-2160ba352
+                  </a>
+                </p>
+              </section>
+              <section className={styles.entry}>
+                <p>Github:</p>
+                <p>
+                  <a 
+                    href="https://www.github.com/henrymclay" 
+                    rel="external" 
+                    target="_blank">
+                    github.com/henrymclay
+                  </a>
+                </p>
+              </section>
             </section>
         </main>
-
     </>
   )};

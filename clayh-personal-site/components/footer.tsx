@@ -17,24 +17,24 @@ type Props = {title : string};
 function Footer({ title = "" }: Props) {
     return (
       <>
-        <footer className={styles.footer}>
+        <footer className={`${styles.footer} ${geistSans.variable} ${geistMono.variable}`}>
         <a
             href="/"
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >   
             Home 
           </a>
           <a
-            href="https://www.github.com/henrymclay"
-            target="_blank"
+            href="/contact"
+            target="_self"
             rel="noopener noreferrer"
           >   
-            Code 
+            Contact 
           </a>
           <a
             href="/cv"
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >   
             CV 
@@ -47,25 +47,18 @@ function Footer({ title = "" }: Props) {
             Projects 
           </a>
           <a
-            href="/blog"
+            href="https://www.github.com/henrymclay"
             target="_blank"
             rel="noopener noreferrer"
           >   
-            Blog 
-          </a>
-          <a
-            href="/art"
-            target="_blank"
-            rel="noopener noreferrer"
-          >   
-            Art 
+            Code (Github)
           </a>
           <a
             href="https://technoliches.bandcamp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >   
-            Music 
+            Music (Bandcamp)
           </a>
         </footer>
       </>

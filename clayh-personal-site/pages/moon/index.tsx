@@ -24,7 +24,7 @@ function Moon() {
       </Head>
         <main className={styles.main}>
             <section>
-            <h2>Information on Earth's Moon</h2>
+            <h2><a href="/moon">Information on Earth's Moon</a></h2>
             </section>
         </main>
 

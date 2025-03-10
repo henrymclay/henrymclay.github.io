@@ -21,9 +21,8 @@ export default function Layout(props: { children: ReactNode }) {
     <>
       <GradientBG 
           className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`} 
-          lightSize={`80`}
-        >
-        <Navbar title={""}/>
+          lightSize={`100`}
+      >
           {props.children}
         <Footer title={""}/>
       </GradientBG>

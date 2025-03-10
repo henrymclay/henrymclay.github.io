@@ -24,7 +24,7 @@ export default function Blog() {
       </Head>
 
         <main className={styles.main}>
-            <h2>Blog</h2>
+            <h2><a href="/blog">Blog</a></h2>
             <section className={styles.category}>
                 <h3>Under Construction!</h3>
             </section>
