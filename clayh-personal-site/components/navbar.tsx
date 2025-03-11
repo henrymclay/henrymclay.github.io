@@ -1,11 +1,12 @@
 import React from 'react';
+import Link from 'next/link';
 
 type NavProps = {title : string}; 
 
 function Navbar({ title = "" }: NavProps) {
     return (
       <>
-          <a href="/"><h1>{title}</h1></a>
+          <Link href="/"><h1>{title}</h1></Link>
       </>
     )
   }

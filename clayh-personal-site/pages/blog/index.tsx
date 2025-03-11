@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
-
+import Link from 'next/link';
 
 export default function Blog() {
   return (
@@ -13,7 +13,7 @@ export default function Blog() {
       </Head>
 
         <main className={styles.main}>
-            <h2><a href="/blog">Blog</a></h2>
+            <h2><Link href="/blog">Blog</Link></h2>
             <section className={styles.category}>
                 <h3>Under Construction!</h3>
             </section>

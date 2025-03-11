@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
-
+import Link from 'next/link';
 
 
 function Moon() {
@@ -14,7 +14,7 @@ function Moon() {
       </Head>
         <main className={styles.main}>
             <section>
-            <h2><a href="/moon">Information on Earth's Moon</a></h2>
+            <h2><Link href="/moon">Information on Earth's Moon</Link></h2>
             </section>
         </main>
 
