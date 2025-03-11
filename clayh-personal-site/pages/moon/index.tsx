@@ -8,7 +8,7 @@ function Moon() {
     <>
       <Head>
         <title>Henry Clay</title>
-        <meta name="description" content="Information on Earth's Moon" />
+        <meta name="description" content="Information on the Moon" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

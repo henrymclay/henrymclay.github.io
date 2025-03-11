@@ -59,7 +59,7 @@ function Footer({ title = "" }: Props) {
             target="_blank"
             rel="noopener noreferrer"
           >   
-            Music (Bandcamp)
+            Music (Bandcamp) {title}
           </Link>
         </footer>
       </>
