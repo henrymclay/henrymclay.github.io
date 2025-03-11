@@ -1,16 +1,5 @@
-import React, { ReactNode } from 'react';
-import { Geist, Geist_Mono } from "next/font/google";
+import React from 'react';
 import styles from "@/styles/Home.module.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 type Props = {
     title : string,

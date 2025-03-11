@@ -1,6 +1,4 @@
-
 import React, { ReactNode } from 'react';
-import Navbar from './navbar';
 import Footer from './footer';
 import GradientBG from './gradientBG';
 import styles from "@/styles/Home.module.css";
