@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
         <main className={styles.main}>
-          <h2>Henry Clay</h2>
+          <h1>Henry Clay</h1>
           <ul>
             <li>Artist</li>
             <li>Developer</li>

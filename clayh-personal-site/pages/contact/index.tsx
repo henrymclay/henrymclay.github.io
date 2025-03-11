@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
-
+import Link from 'next/link';
 /*
 font stuff (posterity)
 import { Geist, Geist_Mono } from "next/font/google";
@@ -26,39 +26,39 @@ export default function Contact() {
       </Head>
 
         <main className={styles.main}>
-          <h2><a href="/contact">Contact</a></h2>
+          <h2><Link href="/contact">Contact</Link></h2>
             <section className={styles.category}>
               <section className={styles.entry}>
                 <p>Email: </p>
                 <p>
-                  <a 
+                  <Link 
                     href="mailto:mr.henry.clay@gmail.com" 
                     rel="external" 
                     target="_blank">
                     mr.henry.clay@gmail.com
-                  </a>
+                  </Link>
                 </p>
               </section>
               <section className={styles.entry}>
                 <p>LinkedIn:</p>
                 <p>
-                  <a 
+                  <Link
                     href="https://www.linkedin.com/in/henry-clay-2160ba352" 
                     rel="external" 
                     target="_blank">
                     linkedin.com/in/henry-clay-2160ba352
-                  </a>
+                  </Link>
                 </p>
               </section>
               <section className={styles.entry}>
                 <p>Github:</p>
                 <p>
-                  <a 
+                  <Link
                     href="https://www.github.com/henrymclay" 
                     rel="external" 
                     target="_blank">
                     github.com/henrymclay
-                  </a>
+                  </Link>
                 </p>
               </section>
             </section>
