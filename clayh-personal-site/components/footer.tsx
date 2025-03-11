@@ -1,6 +1,4 @@
-import React, { ReactNode } from 'react';
-import Head from "next/head";
-import Image from "next/image";
+import React from 'react';
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
@@ -19,48 +17,48 @@ type Props = {title : string};
 function Footer({ title = "" }: Props) {
     return (
       <>
-        <footer className={styles.footer}>
-          <a
-            href="https://www.github.com/henrymclay"
-            target="_blank"
+        <footer className={`${styles.footer} ${geistSans.variable} ${geistMono.variable}`}>
+        <a
+            href="/"
+            target="_self"
             rel="noopener noreferrer"
           >   
-            Code 
+            Home 
           </a>
           <a
-            href="/"
-            target="_blank"
+            href="/contact"
+            target="_self"
+            rel="noopener noreferrer"
+          >   
+            Contact 
+          </a>
+          <a
+            href="/cv"
+            target="_self"
             rel="noopener noreferrer"
           >   
             CV 
           </a>
           <a
-            href="/"
+            href="/projects"
             target="_blank"
             rel="noopener noreferrer"
           >   
             Projects 
           </a>
           <a
-            href="/"
+            href="https://www.github.com/henrymclay"
             target="_blank"
             rel="noopener noreferrer"
           >   
-            Blog 
-          </a>
-          <a
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >   
-            Art 
+            Code (Github)
           </a>
           <a
             href="https://technoliches.bandcamp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >   
-            Music 
+            Music (Bandcamp)
           </a>
         </footer>
       </>

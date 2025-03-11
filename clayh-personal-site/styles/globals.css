@@ -1,13 +1,10 @@
 :root {
+  /*
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  */
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 html,
@@ -16,12 +13,28 @@ body {
   overflow-x: hidden;
 }
 
+
 body {
-  color: var(--foreground);
   background: var(--background);
+  /*
+  color: var(--foreground);
+  */
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+
+/* this is the magic for the gradient */
+div {
+  /*background-image: linear-gradient(red, blue);*/
+  color: transparent;
+  background-clip: text;
+}
+
+section {
+  border-radius: 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 * {
@@ -35,8 +48,22 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: bold;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: left;
+}
+
+h2 {
+  text-align: right;
 }

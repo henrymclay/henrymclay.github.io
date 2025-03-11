@@ -1,14 +1,11 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 
-type Props = {title : string}; 
+type NavProps = {title : string}; 
 
-
-function Navbar({ title = "" }: Props) {
+function Navbar({ title = "" }: NavProps) {
     return (
       <>
-        <div>
-
-        </div>
+          <a href="/"><h1>{title}</h1></a>
       </>
     )
   }

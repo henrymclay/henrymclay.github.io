@@ -67,40 +67,30 @@
   font-weight: 600;
 }
 
-.ctas {
+.section ul {
+  line-height: 18px;
+}
+
+.category {
+  background-color: transparent;
+  margin: 1em;
+  padding-bottom: 16px;
+  outline-style: solid;
+  outline-color: rgba(255, 255, 255, 0.1);
+  outline-width: 3px;
+}
+
+.entry {
+  background-color: transparent;
+  outline-color: transparent;
+  padding-bottom: 16px;
+  /*padding: 8px;*/
+}
+
+.navbar {
+  align-content: left;
   display: flex;
-  gap: 16px;
-}
-
-.ctas a {
-  appearance: none;
-  border-radius: 128px;
-  height: 48px;
-  padding: 0 20px;
-  border: none;
-  border: 1px solid transparent;
-  transition:
-    background 0.2s,
-    color 0.2s,
-    border-color 0.2s;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 500;
-}
-
-a.primary {
-  background: var(--foreground);
-  color: var(--background);
-  gap: 8px;
-}
-
-a.secondary {
-  border-color: var(--gray-alpha-200);
-  min-width: 180px;
+  gap: 24px;
 }
 
 .footer {
@@ -119,23 +109,6 @@ a.secondary {
   flex-shrink: 0;
 }
 
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  a.primary:hover {
-    background: var(--button-primary-hover);
-    border-color: transparent;
-  }
-
-  a.secondary:hover {
-    background: var(--button-secondary-hover);
-    border-color: transparent;
-  }
-
-  .footer a:hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-  }
-}
 
 @media (max-width: 600px) {
   .page {
@@ -172,8 +145,3 @@ a.secondary {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .logo {
-    filter: invert();
-  }
-}
