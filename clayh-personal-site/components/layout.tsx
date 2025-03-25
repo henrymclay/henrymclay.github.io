@@ -3,6 +3,7 @@ import Footer from './footer';
 import GradientBG from './gradientBG';
 import styles from "@/styles/Home.module.css";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,6 +18,7 @@ const geistMono = Geist_Mono({
 export default function Layout(props: { children: ReactNode }) {
   return (
     <>
+      <Analytics/>
       <GradientBG 
           className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`} 
           lightSize={`100`}
