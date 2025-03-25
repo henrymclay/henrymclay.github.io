@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "@/styles/Home.module.css";
-import Link from 'next/link';
+//import Link from 'next/link';
 
 type SystemProps = {
     title: string,
