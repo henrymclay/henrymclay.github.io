@@ -6,6 +6,11 @@ type GradientBGProps = {
     lightSize:string
 }
 
+type EV = {
+    clientX: number
+    clientY: number
+}
+
 function GradientBG({children, className, lightSize}: GradientBGProps) {    
     return(
         <div
@@ -23,8 +28,8 @@ const GradientPosition = () => {
 
     const [ mousePosition, setMousePosition] = React.useState({ x: 0, y: 0 });
     React.useEffect(() => {
-        const windowWidth = window.innerHeight
-        const updateMousePosition = (ev:any) => {
+        //const windowWidth = window.innerHeight
+        const updateMousePosition = (ev:EV) => {
             setMousePosition({ x: ev.clientX, y: ev.clientY });
         };
         window.addEventListener('mousemove', updateMousePosition);

@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Link from 'next/link';
 
-export default function Blog() {
+export default function Bio() {
   return (
     <>
       <Head>
@@ -13,9 +13,16 @@ export default function Blog() {
       </Head>
 
         <main className={styles.main}>
-            <h2><Link href="/blog">Blog</Link></h2>
+            <h2><Link href="/bio">About Me</Link></h2>
             <section className={styles.category}>
-                <h3>Under Construction!</h3>
+                <h4>Under Construction!</h4>
+                <p></p>
+                <h4>Under Construction!</h4>
+                <p></p>
+                <h4>Under Construction!</h4>
+                <p></p>
+                <h4>Under Construction!</h4>
+                <p></p>
             </section>
         </main>
 

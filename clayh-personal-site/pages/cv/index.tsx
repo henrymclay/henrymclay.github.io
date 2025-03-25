@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
+import Link from 'next/link';
 
 export default function CV() {
   return (
@@ -11,7 +12,7 @@ export default function CV() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <main className={styles.main}>
-         <h2><a href="/cv">Curriculum Vitae</a></h2>
+         <h2><Link href="/cv">Curriculum Vitae</Link></h2>
           <section className={styles.category}>
             <h3>Work History</h3>
             <section className={styles.entry}>
@@ -74,9 +75,9 @@ export default function CV() {
               <h3>Articles</h3>
               <section className={styles.entry}>
                 <h4>Transparent Outlines for HTML Elements using Vanilla CSS - March 2025</h4>
-                <a href="https://dev.to/clayhdev/transparent-outlines-for-html-elements-using-vanilla-css-i87" target="_blank"> 
+                <Link href="https://dev.to/clayhdev/transparent-outlines-for-html-elements-using-vanilla-css-i87" target="_blank"> 
                   Read at dev.to
-                </a>
+                </Link>
               </section>
             </section>
         </main>

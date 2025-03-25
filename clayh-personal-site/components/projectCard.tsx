@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "@/styles/Home.module.css";
+import Link from 'next/link';
 
 type CardProps = {
     title: string,
@@ -20,13 +21,13 @@ function ProjectCard({ title = "", line1 = "", line2 = "", line3 = "", link ="",
                 <li>{line2}</li>
                 <li>{line3}</li>
                 <li>
-                    More information is available at: <a
+                    More information is available at: <Link
                          href={link}
                          target="_blank"
                          rel="noopener noreferrer"
                     >
                         {linkTitle}
-                    </a> 
+                    </Link> 
                 </li>
             </ul>
         </section>

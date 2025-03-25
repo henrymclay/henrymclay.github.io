@@ -1,6 +1,7 @@
 import React from 'react';
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import Link from 'next/link';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,48 +19,48 @@ function Footer({ title = "" }: Props) {
     return (
       <>
         <footer className={`${styles.footer} ${geistSans.variable} ${geistMono.variable}`}>
-        <a
+        <Link
             href="/"
             target="_self"
             rel="noopener noreferrer"
           >   
             Home 
-          </a>
-          <a
+          </Link>
+          <Link
             href="/contact"
             target="_self"
             rel="noopener noreferrer"
           >   
             Contact 
-          </a>
-          <a
+          </Link>
+          <Link
             href="/cv"
             target="_self"
             rel="noopener noreferrer"
           >   
             CV 
-          </a>
-          <a
+          </Link>
+          <Link
             href="/projects"
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >   
             Projects 
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://www.github.com/henrymclay"
             target="_blank"
             rel="noopener noreferrer"
           >   
             Code (Github)
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://technoliches.bandcamp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >   
-            Music (Bandcamp)
-          </a>
+            Music (Bandcamp) {title}
+          </Link>
         </footer>
       </>
     )

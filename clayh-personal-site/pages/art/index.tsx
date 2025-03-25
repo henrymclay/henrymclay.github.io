@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
+import Link from 'next/link';
 
 
 export default function Art() {
@@ -13,7 +14,7 @@ export default function Art() {
       </Head>
 
         <main className={styles.main}>
-            <h2><a href="/art">Art</a></h2>
+            <h2><Link href="/art">Art</Link></h2>
             <section className={styles.category}>
                 <h3>Under Construction!</h3>
             </section>
