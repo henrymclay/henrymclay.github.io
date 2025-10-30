@@ -1,3 +1,4 @@
-# henrymclay.github.io
+# clayhdev.com
 A personal website for Henry M Clay
-You can access this site at www.henrymclay.me
+React (NextJS) + custom CSS 
+You can access this site at www.clayhdev.com
